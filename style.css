@@ -1,0 +1,131 @@
+div.foto{
+    margin: 20px;
+    float: right;
+    margin-bottom: 5px;
+    width: 500px;
+}
+div.foto {
+    border: 1px solid #ccc;
+  }
+  
+  div.foto:hover {
+    border: 1px solid #777;
+  }
+  
+  div.foto img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  div.foto2{
+    margin: 20px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 500px;
+}
+div.foto2 {
+    border: 1px solid #ccc;
+  }
+  
+  div.foto2:hover {
+    border: 1px solid #777;
+  }
+  
+  div.foto2 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+  div.foto3{
+    margin: 20px;
+    float: right;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 100px;
+}
+div.foto3 {
+    border: 1px solid #ccc;
+  }
+  
+  div.foto3:hover {
+    border: 1px solid #777;
+  }
+  
+  div.foto3 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  div.foto4{
+    margin: 20px;
+    float: right;
+    width: 400px;
+    margin-top: 100px;
+}
+div.foto4 {
+    border: 1px solid #ccc;
+  }
+  
+  div.foto4:hover {
+    border: 1px solid #777;
+  }
+  
+  div.foto4 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  div.foto5{
+    margin: 20px;
+    float: right;
+    margin-bottom: 10px;
+    width: 500px;
+}
+div.foto5{
+    border: 1px solid #ccc;
+  }
+  
+  div.foto5:hover {
+    border: 1px solid #777;
+  }
+  
+  div.foto5 img {
+    width: 100%;
+    height: auto;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+
+hr{
+    border-top: 5px solid #999;
+}
